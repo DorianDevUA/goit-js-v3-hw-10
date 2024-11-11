@@ -8,20 +8,34 @@
     <title>Task 1: Timer</title>
   </head>
   <body>
+    <a class="back-link" href="./index.html">Back link</a>
     <div class="container">
-      <load
-        src="./partials/header.html"
-        icon-path="./img/sprite.svg#logo"
-        timer-act="active"
-      />
-      <load src="./partials/back-link.html" />
-      <load
-        src="./partials/lesson-theme.html"
-        heading="Модуль 10. Завдання 01. Таймер зворотного відліку"
-      />
-      <load src="./partials/timer.html" />
-      <load src="./partials/footer.html" />
+      <h1>Таймер зворотнього відліку</h1>
+      <h2>JavaScript v3 (Module 10. Task 01)</h2>
+
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
     </div>
+
     <script type="module" src="./js/1-timer.js"></script>
   </body>
 </html>

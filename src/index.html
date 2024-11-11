@@ -9,10 +9,43 @@
   </head>
   <body>
     <div class="container">
-      <load src="./partials/header.html" icon-path="./img/sprite.svg#hexagon" />
-      <div id="root"></div>
-      <load src="./partials/footer.html" />
+      <header class="header">
+        <nav class="nav">
+          <a class="nav-logo" href="./index.html" aria-label="Site logo">
+            <svg class="nav-logo-icon" width="30" height="30">
+              <use href="./img/sprite.svg#hexagon"></use>
+            </svg>
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./01-timer.html">Timer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./02-snackbar.html">Snackbar</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Асинхронний JavaScript та проміси</h1>
+        <h2>JavaScript v3 (Module 10)</h2>
+        <p>Обери необхідний пункт меню у навігації в шапці сайту</p>
+      </main>
+
+      <footer class="footer">
+        <p class="footer-desc">
+          Create with ✨ by
+          <a
+            class="footer-link"
+            href="https://github.com/DorianDevUA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dorian DevUA
+          </a>
+        </p>
+      </footer>
     </div>
-    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

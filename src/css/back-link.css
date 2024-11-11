@@ -2,8 +2,6 @@
   position: relative;
   display: inline-flex;
   padding: 4px 8px;
-  margin-top: 32px;
-  margin-bottom: 12px;
   border: 1px solid;
   border-radius: 8px;
 }
@@ -11,8 +9,4 @@
 .back-link:hover {
   background-color: darkolivegreen;
   color: bisque;
-}
-
-.bodu {
-  color: aqua;
 }
