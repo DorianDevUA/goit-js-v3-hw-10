@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Task 1: Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <load
+        src="./partials/header.html"
+        icon-path="./img/sprite.svg#logo"
+        timer-act="active"
+      />
+      <load src="./partials/back-link.html" />
+      <h2>Модуль 10. Завдання 01. Таймер зворотного відліку</h2>
+
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+      <load src="./partials/footer.html" />
+    </div>
+    <script type="module" src="./js/timer.js"></script>
+  </body>
+</html>

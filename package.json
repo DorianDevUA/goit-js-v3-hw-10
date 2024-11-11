@@ -1,11 +1,11 @@
 {
-  "name": "vite-template",
+  "name": "goit-js-v3-hw-10",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-template-vanilla-js/",
+    "build": "vite build --base=/goit-js-v3-hw-10/",
     "preview": "vite preview"
   },
   "author": "Dorian DevUa <dorian.devua@gmail.com>",
@@ -17,5 +17,9 @@
     "vite": "^5.4.9",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0"
   }
 }
