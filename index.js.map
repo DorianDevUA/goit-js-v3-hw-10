@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/js/main.js"],"sourcesContent":["console.log('Hello world');\n\nconst refs = {\n  rootContainer: document.querySelector('#root'),\n};\n\nrefs.rootContainer.innerHTML = `<div>This is Homepage!</div>`;\n"],"names":["refs"],"mappings":"mCAAA,QAAQ,IAAI,aAAa,EAEzB,MAAMA,EAAO,CACX,cAAe,SAAS,cAAc,OAAO,CAC/C,EAEAA,EAAK,cAAc,UAAY"}
+{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
